@@ -1,4 +1,5 @@
 [
+        //Horses
 {
         "name": "Horse Racing",
         "hurryCostModifier": 25,
@@ -70,5 +71,35 @@
         "Science": 15,
         "uniques": ["+1 Food for every 5 population [in this city]", "Provides [10] [Horses]"],
         "requiredTech": "Refrigeration"
+},
+        //Iron
+{
+        "name": "Make Tools",
+        "hurryCostModifier": 25,
+        "Science": 3,
+        "Production": 1
+        "uniques": ["+1 Science, +2 Production for every 3 population [in this city]", "Consumes [1] [Iron]"],
+        "requiredTech": "Iron Working"
+},
+{
+        "name": "Make Weapons",
+        "hurryCostModifier": 25,
+        "Gold": 2
+        "uniques": ["New [Armored] units start with [30] Experience [in this city]", "Consumes [1] [Iron]"],
+        "requiredTech": "Iron Working"
+},
+{
+        "name": "Steel Manufactury",
+        "hurryCostModifier": 25,
+        "Production": 5
+        "uniques": ["Consumes [1] [Iron]"],
+        "requiredTech": "Metallurgy"
+},
+{
+        "name": "Alloy Steel Manufactury",
+        "hurryCostModifier": 25,
+        "Production": 3
+        "uniques": ["Consumes [1] [Iron]", "[+2 Production] from [Mine] tiles [in this city]"],
+        "requiredTech": "Metallurgy"
 },
 ]
