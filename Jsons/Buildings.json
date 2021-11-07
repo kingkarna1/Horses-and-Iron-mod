@@ -7,12 +7,19 @@
         "requiredTech": "Animal Husbandry"
 },
 {
+        "name": "Hunt Horses",
+        "hurryCostModifier": 25,
+        "Food": 10,
+        "uniques": ["Consumes [1] [Horses]"],
+        "requiredTech": "Animal Husbandry"
+},
+{
         "name": "Horse Pulled Wagon",
         "hurryCostModifier": 25,
         "Gold": 5,
         "Happiness": 2,
         "uniques": ["+1 Happiness for every 3 population [in this city]", "Consumes [1] [Horses]"],
-        "requiredTech": "Refrigeration"
+        "requiredTech": "The Wheel"
 },
 {
         "name": "Horse Pulled Plow",
@@ -20,21 +27,35 @@
         "Food": 5,
         "Happiness": 2,
         "uniques": ["+1 Food for every 3 population [in this city]", "Consumes [1] [Horses]", "[+1 Food, +1 Production, +1 Gold] from [Farm] tiles [in this city]"],
-        "requiredTech": "Refrigeration"
+        "requiredTech": "The Wheel"
 },
 {
-        "name": "Horse Trainer",
+        "name": "Use Horses for Herding",
         "hurryCostModifier": 25,
         "Gold": 2
-        "uniques": ["New [Mounted] units start with [30] Experience [in this city]"],
-        "requiredTech": "Refrigeration"
+        "uniques": ["+1 Food for every 3 population [in this city]", "Consumes [1] [Horses]", "[+2 Food] from [Pasture] tiles [in this city]"],
+        "requiredTech": "Horseback Riding"
 },
 {
         "name": "Riding Instructor",
         "hurryCostModifier": 25,
         "Gold": 2
-        "uniques": ["New [Mounted] units start with [30] Experience [in this city]"],
-        "requiredTech": "Refrigeration"
+        "uniques": ["New [Mounted] units start with [30] Experience [in this city]", "Consumes [1] [Horses]"],
+        "requiredTech": "Horseback Riding"
+},
+{
+        "name": "Horse Trainer",
+        "hurryCostModifier": 25,
+        "Gold": 2
+        "uniques": ["New [Mounted] units start with [30] Experience [in this city]", "Consumes [1] [Horses]"],
+        "requiredTech": "Chilvary"
+},
+{
+        "name": "Horse Breeding",
+        "hurryCostModifier": 25,
+        "Cost": 2
+        "uniques": ["Consumes [-2] [Horses]"],
+        "requiredTech": "Chilvary"
 },
 {
         "name": "Horse Meat Factory",
