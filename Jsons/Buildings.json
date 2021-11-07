@@ -32,28 +32,28 @@
 {
         "name": "Use Horses for Herding",
         "hurryCostModifier": 25,
-        "Gold": 2
+        "Gold": 2,
         "uniques": ["+1 Food for every 3 population [in this city]", "Consumes [1] [Horses]", "[+2 Food] from [Pasture] tiles [in this city]"],
         "requiredTech": "Horseback Riding"
 },
 {
         "name": "Riding Instructor",
         "hurryCostModifier": 25,
-        "Gold": 2
+        "Gold": 2,
         "uniques": ["New [Mounted] units start with [30] Experience [in this city]", "Consumes [1] [Horses]"],
         "requiredTech": "Horseback Riding"
 },
 {
         "name": "Horse Trainer",
         "hurryCostModifier": 25,
-        "Gold": 2
+        "Gold": 2,
         "uniques": ["New [Mounted] units start with [30] Experience [in this city]", "Consumes [1] [Horses]"],
         "requiredTech": "Chilvary"
 },
 {
         "name": "Horse Breeding",
         "hurryCostModifier": 25,
-        "Cost": 2
+        "Cost": 2,
         "uniques": ["Consumes [-2] [Horses]"],
         "requiredTech": "Chilvary"
 },
@@ -62,6 +62,13 @@
         "hurryCostModifier": 25,
         "Food": 15,
         "uniques": ["+1 Food for every 2 population [in this city]", "Consumes [1] [Horses]"],
+        "requiredTech": "Refrigeration"
+},
+{
+        "name": "Horse Genetic Testing",
+        "hurryCostModifier": 25,
+        "Science": 15,
+        "uniques": ["+1 Food for every 5 population [in this city]", "Consumes [-10] [Horses]"],
         "requiredTech": "Refrigeration"
 },
 ]
