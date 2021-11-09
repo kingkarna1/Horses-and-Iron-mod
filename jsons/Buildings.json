@@ -107,7 +107,7 @@
         "name": "Resource Generator",
         "hurryCostModifier": 100,
         "Food": 20,
-        "uniques": ["Provides [5] [Horses]", "Provides [5] [Iron]", "Provides [5] [Coal]", "Provides [5] [Horses]", "Provides [5] [Oil]", "Provides [5] [Uranium]", "Provides [5] [Aluminum]"],
-        "requiredTech": "Refrigeration"
+        "uniques": ["Provides [3] [Horses]", "Provides [3] [Iron]", "Provides [3] [Coal]", "Provides [3] [Horses]", "Provides [3] [Oil]", "Provides [3] [Uranium]", "Provides [3] [Aluminum]"],
+        "requiredTech": "Future Tech"
 },
 ]
