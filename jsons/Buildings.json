@@ -102,4 +102,12 @@
         "uniques": ["Consumes [1] [Iron]", "[+2 Production] from [Mine] tiles [in this city]"],
         "requiredTech": "Metallurgy"
 },
+//other
+{
+        "name": "Resource Generator",
+        "hurryCostModifier": 100,
+        "Food": 20,
+        "uniques": ["Provides [5] [Horses]", "Provides [5] [Iron]", "Provides [5] [Coal]", "Provides [5] [Horses]", "Provides [5] [Oil]", "Provides [5] [Uranium]", "Provides [5] [Aluminum]"],
+        "requiredTech": "Refrigeration"
+},
 ]
