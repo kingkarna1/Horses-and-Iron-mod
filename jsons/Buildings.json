@@ -3,31 +3,27 @@
 {
         "name": "Horse Racing",
         "hurryCostModifier": 25,
-        "gold": 15,
-        "uniques": ["[+1 Gold] for every [2] population [in this city]", "Consumes [1] [Horses]"],
+        "uniques": ["[+1 Gold] for every [2] population [in this city]", "+[15]% [Gold] [in this city]", "Consumes [1] [Horses]"],
         "requiredTech": "Animal Husbandry"
 },
 {
         "name": "Hunt Horses",
         "hurryCostModifier": 25,
-        "food": 10,
-        "uniques": ["Consumes [1] [Horses]"],
+        "uniques": ["[+10]% [Food] [in this city]", "Consumes [1] [Horses]"],
         "requiredTech": "Animal Husbandry"
 },
 {
         "name": "Horse Pulled Wagon",
         "hurryCostModifier": 25,
-        "gold": 5,
         "happiness": 2,
-        "uniques": ["[+1 Happiness] for every [3] population [in this city]", "Consumes [1] [Horses]"],
+        "uniques": ["[+1 Happiness] for every [3] population [in this city]", "[+5]% [Gold] [in this city]", "Consumes [1] [Horses]"],
         "requiredTech": "The Wheel"
 },
 {
         "name": "Horse Pulled Plow",
         "hurryCostModifier": 25,
-        "food": 5,
         "happiness": 2,
-        "uniques": ["[+1 Food] for every [3] population [in this city]", "Consumes [1] [Horses]", "[+1 Food, +1 Production, +1 Gold] from [Farm] tiles [in this city]"],
+        "uniques": ["[+1 Food] for every [3] population [in this city]", "[+5]% [Food] [in this city]", "Consumes [1] [Horses]", "[+1 Food, +1 Production, +1 Gold] from [Farm] tiles [in this city]"],
         "requiredTech": "The Wheel"
 },
 {
@@ -61,24 +57,21 @@
 {
         "name": "Horse Meat Factory",
         "hurryCostModifier": 25,
-        "food": 15,
-        "uniques": ["[+1 Food] for every [2] population [in this city]", "Consumes [1] [Horses]"],
+        "uniques": ["[+1 Food] for every [2] population [in this city]", "[+15]% [Food] [in this city]", "Consumes [1] [Horses]"],
         "requiredTech": "Refrigeration"
 },
 {
         "name": "Horse Genetic Testing",
         "hurryCostModifier": 25,
-        "science": 15,
-        "uniques": ["[+1 Food] for every [5] population [in this city]", "Provides [10] [Horses]"],
+        "uniques": ["[+1 Food] for every [5] population [in this city]", "[+15]% [Science] [in this city]", "Provides [10] [Horses]"],
         "requiredTech": "Refrigeration"
 },
         //Iron
 {
         "name": "Make Tools",
         "hurryCostModifier": 25,
-        "science": 3,
         "production": 1
-        "uniques": ["[+1 Science, +2 Production] for every [3] population [in this city]", "Consumes [1] [Iron]"],
+        "uniques": ["[+1 Science, +2 Production] for every [3] population [in this city]", "[+3]% [Science] [in this city]", "Consumes [1] [Iron]"],
         "requiredTech": "Iron Working"
 },
 {
@@ -106,8 +99,8 @@
 {
         "name": "Resource Generator",
         "hurryCostModifier": 100,
-        "food": 20,
-        "uniques": ["Provides [3] [Horses]", "Provides [3] [Iron]", "Provides [3] [Coal]", "Provides [3] [Horses]", "Provides [3] [Oil]", "Provides [3] [Uranium]", "Provides [3] [Aluminum]"],
+        "food": 10,
+        "uniques": ["[+10]% [Food] [in this city]", "Provides [3] [Horses]", "Provides [3] [Iron]", "Provides [3] [Coal]", "Provides [3] [Horses]", "Provides [3] [Oil]", "Provides [3] [Uranium]", "Provides [3] [Aluminum]"],
         "requiredTech": "Future Tech"
 },
 ]
