@@ -1,10 +1,10 @@
 {
-  "name": "Hack-Land",
+  "name": "Horses-and-Iron-mod",
   "description": "unciv mod. Adds more stuff for both! pls star if you like! MAJOR UPDATE : MORE BUILDINGS",
  "author": "King Karna",
   "version": "1.2.0",
   "minGameVersion": "4.8.0",
-  "modUrl": "https://github.com/kingkarna1/hack-land",
+  "modUrl": "https://github.com/kingkarna1/Horses-and-Iron-mod",
   "dependencies": [],
-  "updateUrl": "https://github.com/kingkarna1/hack-land/archive/refs/heads/main.zip"
+  "updateUrl": "https://github.com/kingkarna1/Horses-and-Iron-mod/archive/refs/heads/main.zip"
 }
