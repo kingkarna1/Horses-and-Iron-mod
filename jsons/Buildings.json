@@ -107,25 +107,25 @@
    
 
 
-{ "name": "Equestrian Stables", "cost": 80, "production": 2, "culture": 1, "maintenance": 1, "requiredTech": "Animal Husbandry", "requiredResource": "horses", "civilopediaText": [ "Consumes 1 Horses when built. Provides +2 Production and +1 Culture." ] }, 
+{ "name": "Equestrian Stables", "cost": 80, "production": 2, "culture": 1, "maintenance": 1, "requiredTech": "Animal Husbandry", "requiredResource": "horses", }, 
 
-{ "name": "Horse Market", "cost": 100, "gold": 3, "happiness": 1, "maintenance": 1, "requiredTech": "Currency", "requiredResource": "horses", "civilopediaText": [ "Consumes 1 Horses when built. Provides +3 Gold and +1 Happiness." ] }, 
+{ "name": "Horse Market", "cost": 100, "gold": 3, "happiness": 1, "maintenance": 1, "requiredTech": "Currency", "requiredResource": "horses", }, 
 
-{ "name": "Riding School", "cost": 120, "production": 1, "science": 2, "maintenance": 1, "requiredTech": "Horseback Riding", "requiredResource": "horses", "civilopediaText": [ "Consumes 1 Horses when built. Provides +1 Production and +2 Science." ] }, 
+{ "name": "Riding School", "cost": 120, "production": 1, "science": 2, "maintenance": 1, "requiredTech": "Horseback Riding", "requiredResource": "horses", }, 
 
-{ "name": "Horse Circus", "cost": 150, "culture": 4, "gold": 1, "maintenance": 2, "requiredTech": "Drama and Poetry", "requiredResource": "horses", "civilopediaText": [ "Consumes 1 Horses when built. Provides +4 Culture and +1 Gold." ] }, 
+{ "name": "Horse Circus", "cost": 150, "culture": 4, "gold": 1, "maintenance": 2, "requiredTech": "Drama and Poetry", "requiredResource": "horses", }, 
 
-{ "name": "School of Equestrian Arts", "cost": 140, "culture": 2, "science": 2, "maintenance": 1, "requiredTech": "Education", "requiredResource": "horses", "civilopediaText": [ "Consumes 1 Horses when built. Provides +2 Culture and +2 Science." ] },
+{ "name": "School of Equestrian Arts", "cost": 140, "culture": 2, "science": 2, "maintenance": 1, "requiredTech": "Education", "requiredResource": "horses", },
 
-{ "name": "Iron Foundry", "cost": 90, "production": 3, "maintenance": 1, "requiredTech": "Iron Working", "requiredResource": "iron", "civilopediaText": [ "Consumes 1 Iron when built. Provides +3 Production." ] }, 
+{ "name": "Iron Foundry", "cost": 90, "production": 3, "maintenance": 1, "requiredTech": "Iron Working", "requiredResource": "iron", }, 
 
-{ "name": "Armoury", "cost": 110, "production": 1, "gold": 1, "maintenance": 1, "requiredTech": "Metal Casting", "requiredResource": "iron", "civilopediaText": [ "Consumes 1 Iron when built. Provides +1 Production and +1 Gold." ] }, 
+{ "name": "Armoury", "cost": 110, "production": 1, "gold": 1, "maintenance": 1, "requiredTech": "Metal Casting", "requiredResource": "iron", }, 
 
-{ "name": "Ironworks", "cost": 130, "production": 2, "science": 1, "maintenance": 1, "requiredTech": "Industrialization", "requiredResource": "iron", "civilopediaText": [ "Consumes 1 Iron when built. Provides +2 Production and +1 Science." ] }, 
+{ "name": "Ironworks", "cost": 130, "production": 2, "science": 1, "maintenance": 1, "requiredTech": "Industrialization", "requiredResource": "iron", }, 
 
-{ "name": "Forge of Crafts", "cost": 100, "gold": 2, "culture": 1, "maintenance": 1, "requiredTech": "Engineering", "requiredResource": "iron", "civilopediaText": [ "Consumes 1 Iron when built. Provides +2 Gold and +1 Culture." ] }, 
+{ "name": "Forge of Crafts", "cost": 100, "gold": 2, "culture": 1, "maintenance": 1, "requiredTech": "Engineering", "requiredResource": "iron", }, 
 
-{ "name": "Steelworks", "cost": 200, "production": 4, "science": 2, "maintenance": 2, "requiredTech": "Combustion", "requiredResource": "iron", "civilopediaText": [ "Consumes 1 Iron when built. Provides +4 Production and +2 Science." ] } 
+{ "name": "Steelworks", "cost": 200, "production": 4, "science": 2, "maintenance": 2, "requiredTech": "Combustion", "requiredResource": "iron", } 
 
 
 
