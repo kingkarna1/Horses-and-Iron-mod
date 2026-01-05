@@ -3,7 +3,7 @@
 {
         "name": "Horse Racing",
         "hurryCostModifier": 25,
-        "uniques": ["[+1 Gold] per [2] population [in this city]", "+[15]% [Gold] [in this city]", "Consumes [1] [Horses]"],
+        "uniques": ["[+1 Gold] per [2] population [in this city]", "[+15]% [Gold] [in this city]", "Consumes [1] [Horses]"],
         "requiredTech": "Animal Husbandry"
 },
 {
