@@ -1,111 +1,34 @@
 [
-        //Horses
-{
-        "name": "Horse Racing",
-        "hurryCostModifier": 25,
-        "uniques": ["[+1 Gold] per [2] population [in this city]", "[+15]% [Gold] [in this city]", "Consumes [1] [Horses]"],
-        "requiredTech": "Animal Husbandry"
-},
-{
-        "name": "Hunt Horses",
-        "hurryCostModifier": 25,
-        "uniques": ["[+10]% [Food] [in this city]", "Consumes [1] [Horses]"],
-        "requiredTech": "Animal Husbandry"
-},
-{
-        "name": "Horse Pulled Wagon",
-        "hurryCostModifier": 25,
-        "happiness": 2,
-        "uniques": ["[+1 Happiness] per [3] population [in this city]", "[+5]% [Gold] [in this city]", "Consumes [1] [Horses]"],
-        "requiredTech": "The Wheel"
-},
-{
-        "name": "Horse Pulled Plow",
-        "hurryCostModifier": 25,
-        "happiness": 2,
-        "uniques": ["[+1 Food] per [3] population [in this city]", "[+5]% [Food] [in this city]", "Consumes [1] [Horses]", "[+1 Food, +1 Production, +1 Gold] from [Farm] tiles [in this city]"],
-        "requiredTech": "The Wheel"
-},
-{
-        "name": "Use Horses for Herding",
-        "hurryCostModifier": 25,
-        "gold": 2,
-        "uniques": ["[+1 Food] per [3] population [in this city]", "Consumes [1] [Horses]", "[+2 Food] from [Pasture] tiles [in this city]"],
-        "requiredTech": "Horseback Riding"
-},
-{
-        "name": "Riding Instructor",
-        "hurryCostModifier": 25,
-        "gold": 2,
-        "uniques": ["New [Mounted] units start with [30] Experience [in this city]", "Consumes [1] [Horses]"],
-        "requiredTech": "Horseback Riding"
-},
-{
-        "name": "Horse Trainer",
-        "hurryCostModifier": 25,
-        "gold": 2,
-        "uniques": ["New [Mounted] units start with [30] Experience [in this city]", "Consumes [1] [Horses]"],
-        "requiredTech": "Chivalry"
-},
-{
-        "name": "Horse Breeding",
-        "hurryCostModifier": 25,
-        "cost": 2,
-        "uniques": ["Provides [2] [Horses]"],
-        "requiredTech": "Chivalry"
-},
-{
-        "name": "Horse Meat Factory",
-        "hurryCostModifier": 25,
-        "uniques": ["[+1 Food] per [2] population [in this city]", "[+15]% [Food] [in this city]", "Consumes [1] [Horses]"],
-        "requiredTech": "Refrigeration"
-},
-{
-        "name": "Horse Genetic Testing",
-        "hurryCostModifier": 25,
-        "uniques": ["[+1 Food] per [5] population [in this city]", "[+15]% [Science] [in this city]", "Provides [10] [Horses]"],
-        "requiredTech": "Refrigeration"
-},
-        //Iron
-{
-        "name": "Make Tools",
-        "hurryCostModifier": 25,
-        "production": 1
-        "uniques": ["[+1 Science, +2 Production] per [3] population [in this city]", "[+3]% [Science] [in this city]", "Consumes [1] [Iron]"],
-        "requiredTech": "Iron Working"
-},
-{
-        "name": "Make Weapons",
-        "hurryCostModifier": 25,
-        "gold": 2
-        "uniques": ["New [Armored] units start with [30] Experience [in this city]", "Consumes [1] [Iron]"],
-        "requiredTech": "Iron Working"
-},
-{
-        "name": "Steel Manufactury",
-        "hurryCostModifier": 25,
-        "production": 5
-        "uniques": ["Consumes [1] [Iron]"],
-        "requiredTech": "Metallurgy"
-},
-{
-        "name": "Alloy Steel Manufactury",
-        "hurryCostModifier": 25,
-        "production": 3
-        "uniques": ["Consumes [1] [Iron]", "[+2 Production] from [Mine] tiles [in this city]"],
-        "requiredTech": "Metallurgy"
-},
-//other
-{
-        "name": "Resource Generator",
-        "hurryCostModifier": 100,
-        "food": 10,
-        "uniques": ["[+10]% [Food] [in this city]", "Provides [3] [Horses]", "Provides [3] [Iron]", "Provides [3] [Coal]", "Provides [3] [Horses]", "Provides [3] [Oil]", "Provides [3] [Uranium]", "Provides [3] [Aluminum]"],
-        "requiredTech": "Future Tech"
-},
+       
+{ "name": "Horse Racing", "hurryCostModifier": 25, "uniques": ["[+1 Gold] per [2] population [in this city]", "[+15]% [Gold] [in this city]", "Consumes [1] [Horses]"], "requiredTech": "Animal Husbandry" },
 
-   
+{ "name": "Hunt Horses", "hurryCostModifier": 25, "uniques": ["[+10]% [Food] [in this city]", "Consumes [1] [Horses]"], "requiredTech": "Animal Husbandry" },
 
+{ "name": "Horse Pulled Wagon", "hurryCostModifier": 25, "happiness": 2, "uniques": ["[+1 Happiness] per [3] population [in this city]", "[+5]% [Gold] [in this city]", "Consumes [1] [Horses]"], "requiredTech": "The Wheel" },
+
+{ "name": "Horse Pulled Plow", "hurryCostModifier": 25, "happiness": 2, "uniques": ["[+1 Food] per [3] population [in this city]", "[+5]% [Food] [in this city]", "Consumes [1] [Horses]", "[+1 Food, +1 Production, +1 Gold] from [Farm] tiles [in this city]"], "requiredTech": "The Wheel" },
+
+{ "name": "Use Horses for Herding", "hurryCostModifier": 25, "gold": 2, "uniques": ["[+1 Food] per [3] population [in this city]", "Consumes [1] [Horses]", "[+2 Food] from [Pasture] tiles [in this city]"], "requiredTech": "Horseback Riding" },
+
+{ "name": "Riding Instructor", "hurryCostModifier": 25, "gold": 2, "uniques": ["New [Mounted] units start with [30] XP [in this city]", "Consumes [1] [Horses]"], "requiredTech": "Horseback Riding" },
+
+{ "name": "Horse Trainer", "hurryCostModifier": 25, "gold": 2, "uniques": ["New [Mounted] units start with [30] XP [in this city]", "Consumes [1] [Horses]"], "requiredTech": "Chivalry" },
+
+{ "name": "Horse Breeding", "hurryCostModifier": 25, "cost": 2, "uniques": ["Provides [2] [Horses]"], "requiredTech": "Chivalry" },
+
+{ "name": "Horse Meat Factory", "hurryCostModifier": 25, "uniques": ["[+1 Food] per [2] population [in this city]", "[+15]% [Food] [in this city]", "Consumes [1] [Horses]"], "requiredTech": "Refrigeration" },
+
+{ "name": "Horse Genetic Testing", "hurryCostModifier": 25, "uniques": ["[+1 Food] per [5] population [in this city]", "[+15]% [Science] [in this city]", "Provides [10] [Horses]"], "requiredTech": "Refrigeration" },
+        
+{ "name": "Make Tools", "hurryCostModifier": 25, "production": 1 "uniques": ["[+1 Science, +2 Production] per [3] population [in this city]", "[+3]% [Science] [in this city]", "Consumes [1] [Iron]"], "requiredTech": "Iron Working" },
+
+{ "name": "Make Weapons", "hurryCostModifier": 25, "gold": 2 "uniques": ["New [Armored] units start with [30] XP [in this city]", "Consumes [1] [Iron]"], "requiredTech": "Iron Working" },
+
+{ "name": "Steel Manufactury", "hurryCostModifier": 25, "production": 5 "uniques": ["Consumes [1] [Iron]"], "requiredTech": "Metallurgy" },
+
+{ "name": "Alloy Steel Manufactury", "hurryCostModifier": 25, "production": 3 "uniques": ["Consumes [1] [Iron]", "[+2 Production] from [Mine] tiles [in this city]"], "requiredTech": "Metallurgy" },
+
+{ "name": "Resource Generator", "hurryCostModifier": 100, "food": 10, "uniques": ["[+10]% [Food] [in this city]", "Provides [3] [Horses]", "Provides [3] [Iron]", "Provides [3] [Coal]", "Provides [3] [Horses]", "Provides [3] [Oil]", "Provides [3] [Uranium]", "Provides [3] [Aluminum]"], "requiredTech": "Future Tech" },
 
 { "name": "Equestrian Stables", "cost": 80, "production": 2, "culture": 1, "maintenance": 1, "requiredTech": "Animal Husbandry", "requiredResource": "Horses" }, 
 
@@ -126,7 +49,5 @@
 { "name": "Forge of Crafts", "cost": 100, "gold": 2, "culture": 1, "maintenance": 1, "requiredTech": "Engineering", "requiredResource": "Iron" }, 
 
 { "name": "Steelworks", "cost": 200, "production": 4, "science": 2, "maintenance": 2, "requiredTech": "Combustion", "requiredResource": "Iron" } 
-
-
 
 ]
